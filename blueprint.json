@@ -1,0 +1,19 @@
+{
+	"identifier": "kms",
+	"about": {
+		"title": "Key Management Service (KMS)",
+		"explanation": "An elementary blueprint for defining an AWS Key Management Service (KMS)"
+	},
+	"compute_service": {
+		"default": {"identifier": "kms"}
+	},
+	"binding_target": {
+		"configuration": {
+      "description": "^^identifier^^",
+      "deletion_window_in_days": 10,
+      "is_enabled": true,
+      "enable_key_rotation": false,
+      "multi_region": false
+		}
+	}
+}
