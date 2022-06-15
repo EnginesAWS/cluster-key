@@ -1,11 +1,11 @@
 {
 	"identifier": "kms",
 	"about": {
-		"title": "Key Management Service (KMS)",
-		"explanation": "An elementary blueprint for defining an AWS Key Management Service (KMS)"
+		"title": "Key Management Service (KMS) Cluster Key",
+		"explanation": "An elementary blueprint for defining an AWS Key Management Service (KMS) cluster key"
 	},
 	"compute_service": {
-		"default": {"identifier": "kms"}
+		"default": {"identifier": "cluster_key"}
 	},
 	"binding_target": {
 		"configuration": {
