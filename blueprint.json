@@ -1,19 +1,19 @@
 {
-	"identifier": "kms",
+	"identifier": "cluster-key",
 	"about": {
 		"title": "Key Management Service (KMS) Cluster Key",
-		"explanation": "An elementary blueprint for defining an AWS Key Management Service (KMS) cluster key"
+		"explanation": "An elementary blueprint for defining a Key Management Service (KMS) cluster key"
 	},
 	"compute_service": {
 		"default": {"identifier": "cluster_key"}
 	},
 	"binding_target": {
 		"configuration": {
-      "description": "^^identifier^^",
-      "deletion_window_in_days": 10,
-      "is_enabled": true,
-      "enable_key_rotation": false,
-      "multi_region": false
+			"description": "^^identifier^^",
+			"deletion_window_in_days": 10,
+			"is_enabled": true,
+			"enable_key_rotation": false,
+			"multi_region": false
 		}
 	}
 }
